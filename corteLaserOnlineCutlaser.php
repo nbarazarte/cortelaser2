@@ -475,6 +475,7 @@ function cn_set_default_options_CortesLaser() {
         add_option( 'preciom2_contrachapadoAbadul_15mm', '119.79' );
     }          
 
+
 }
 
 #Agregar esta condiguración al menu
