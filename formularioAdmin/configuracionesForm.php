@@ -1527,8 +1527,9 @@
                                 <input type="number" step=".01" class="form-control" id="preciom2_contrachapadoAbadul_12mm" name="preciom2_contrachapadoAbadul_12mm" value="<?php echo esc_html($preciom2_contrachapadoAbadul_12mm);?>" required/>
                               </div>
 
-                            <input type="number" step=".01" class="form-control" id="preciom2_contrachapadoAbadul_12mm" name="preciom2_contrachapadoAbadul_12mm" value="<?php echo esc_html($preciom2_contrachapadoAbadul_12mm);?>" required/>
+                            
                             </div>
+                          </div>
                           </div> 
 
                           <div class="col-sm-4">
@@ -1571,10 +1572,19 @@
 
 
     </div>  
+    <p>&nbsp;</p>
 
-<br/>
+    <center>
+      <div class="col-sm-4 text-center">
+        
+        <div class="row">
 
-  <button type="submit" class="btn btn-primary"> <i class="fas fa-magic"></i> Guardar todo</button>
+          <button type="submit" class="btn btn-primary"> <i class="fas fa-magic"></i> Guardar todo</button>
+
+         </div>
+
+      </div>    
+    </center>
 
 </form>
 
