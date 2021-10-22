@@ -50,22 +50,23 @@
           <!-- Metales-->
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingA0">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseA0" aria-expanded="false" aria-controls="collapseA0">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseA0" aria-expanded="true" aria-controls="collapseA0">
                 <h5 class="card-title" style="">Materiales Metálicos</h5>
               </button>
             </h2>
-            <div id="collapseA0" class="accordion-collapse collapse " aria-labelledby="headingA0" data-bs-parent="#accordionExample">
+            <div id="collapseA0" class="accordion-collapse collapse show" aria-labelledby="headingA0" data-bs-parent="#accordionExample0">
+
               <div class="accordion-body">
             
                 <div class="accordion" id="accordionExample1">
 
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="headingA1">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseA1" aria-expanded="false" aria-controls="collapseA1">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseA1" aria-expanded="true" aria-controls="collapseA1">
                         <h5 class="card-title" style="text-align: left;">Acero Inoxidable</h5>
                       </button>
                     </h2>
-                    <div id="collapseA1" class="accordion-collapse collapse " aria-labelledby="headingA1" data-bs-parent="#accordionExample">
+                    <div id="collapseA1" class="accordion-collapse collapse show" aria-labelledby="headingA1" data-bs-parent="#accordionExample1">
                       <div class="accordion-body">
                     
                       <div class="card-body">
@@ -188,7 +189,7 @@
                         <h5 class="card-title" style="text-align: left;">Acero de Carbono</h5>
                       </button>
                     </h2>
-                    <div id="collapseA2" class="accordion-collapse collapse" aria-labelledby="headingA2" data-bs-parent="#accordionExample">
+                    <div id="collapseA2" class="accordion-collapse collapse" aria-labelledby="headingA2" data-bs-parent="#accordionExample1">
                       <div class="accordion-body">
 
                       <div class="card-body">
@@ -371,7 +372,7 @@
                         <h5 class="card-title" style="text-align: left;">Aluminio</h5>
                       </button>
                     </h2>
-                    <div id="collapseA3" class="accordion-collapse collapse" aria-labelledby="headingA3" data-bs-parent="#accordionExample">
+                    <div id="collapseA3" class="accordion-collapse collapse" aria-labelledby="headingA3" data-bs-parent="#accordionExample1">
                       <div class="accordion-body">
 
                       <div class="card-body">
@@ -454,7 +455,7 @@
                         <h5 class="card-title" style="text-align: left;">Latón</h5>
                       </button>
                     </h2>
-                    <div id="collapseA4" class="accordion-collapse collapse" aria-labelledby="headingA4" data-bs-parent="#accordionExample">
+                    <div id="collapseA4" class="accordion-collapse collapse" aria-labelledby="headingA4" data-bs-parent="#accordionExample1">
                       <div class="accordion-body">
 
                       <div class="card-body">
@@ -557,7 +558,7 @@
                         <h5 class="card-title" style="text-align: left;">Cobre</h5>
                       </button>
                     </h2>
-                    <div id="collapseA5" class="accordion-collapse collapse" aria-labelledby="headingA5" data-bs-parent="#accordionExample">
+                    <div id="collapseA5" class="accordion-collapse collapse" aria-labelledby="headingA5" data-bs-parent="#accordionExample1">
                       <div class="accordion-body">
 
                       <div class="card-body">
@@ -640,7 +641,7 @@
                         <h5 class="card-title" style="text-align: left;">Acero Galvanizado</h5>
                       </button>
                     </h2>
-                    <div id="collapseA6" class="accordion-collapse collapse" aria-labelledby="headingA6" data-bs-parent="#accordionExample">
+                    <div id="collapseA6" class="accordion-collapse collapse" aria-labelledby="headingA6" data-bs-parent="#accordionExample1">
                       <div class="accordion-body">
 
                       <div class="card-body">
@@ -750,18 +751,19 @@
                 <h5 class="card-title" style="">Materiales No Metálicos</h5>
               </button>
             </h2>
-            <div id="collapseA01" class="accordion-collapse collapse" aria-labelledby="headingA01" data-bs-parent="#accordionExample">
+            <div id="collapseA01" class="accordion-collapse collapse" aria-labelledby="headingA01" data-bs-parent="#accordionExample0">
+            
               <div class="accordion-body">
 
                 <div class="accordion" id="accordionExample2">
 
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="headingB1">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseB1" aria-expanded="false" aria-controls="collapseB1">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseB1" aria-expanded="true" aria-controls="collapseB1">
                         <h5 class="card-title" style="text-align: left;">Metacrilatos Incoloro</h5>
                       </button>
                     </h2>
-                    <div id="collapseB1" class="accordion-collapse collapse " aria-labelledby="headingB1" data-bs-parent="#accordionExample">
+                    <div id="collapseB1" class="accordion-collapse collapse show" aria-labelledby="headingB1" data-bs-parent="#accordionExample2">
                       <div class="accordion-body">
                     
                       <div class="card-body">
@@ -924,7 +926,7 @@
                         <h5 class="card-title" style="text-align: left;">Metacrilatos Negro</h5>
                       </button>
                     </h2>
-                    <div id="collapseB2" class="accordion-collapse collapse" aria-labelledby="headingB2" data-bs-parent="#accordionExample">
+                    <div id="collapseB2" class="accordion-collapse collapse" aria-labelledby="headingB2" data-bs-parent="#accordionExample2">
                       <div class="accordion-body">
 
                       <div class="card-body">
@@ -1027,7 +1029,7 @@
                         <h5 class="card-title" style="text-align: left;">Metacrilatos Blanco Opal</h5>
                       </button>
                     </h2>
-                    <div id="collapseB3" class="accordion-collapse collapse" aria-labelledby="headingB3" data-bs-parent="#accordionExample">
+                    <div id="collapseB3" class="accordion-collapse collapse" aria-labelledby="headingB3" data-bs-parent="#accordionExample2">
                       <div class="accordion-body">
 
                       <div class="card-body">
@@ -1170,7 +1172,7 @@
                         <h5 class="card-title" style="text-align: left;">Metacrilatos Blanco</h5>
                       </button>
                     </h2>
-                    <div id="collapseB4" class="accordion-collapse collapse" aria-labelledby="headingB4" data-bs-parent="#accordionExample">
+                    <div id="collapseB4" class="accordion-collapse collapse" aria-labelledby="headingB4" data-bs-parent="#accordionExample2">
                       <div class="accordion-body">
 
                       <div class="card-body">
@@ -1273,7 +1275,7 @@
                         <h5 class="card-title" style="text-align: left;">Metacrilatos Plata Espejo</h5>
                       </button>
                     </h2>
-                    <div id="collapseB5" class="accordion-collapse collapse" aria-labelledby="headingB5" data-bs-parent="#accordionExample">
+                    <div id="collapseB5" class="accordion-collapse collapse" aria-labelledby="headingB5" data-bs-parent="#accordionExample2">
                       <div class="accordion-body">
 
                       <div class="card-body">
@@ -1316,7 +1318,7 @@
                         <h5 class="card-title" style="text-align: left;">Metacrilatos Dorado Espejo</h5>
                       </button>
                     </h2>
-                    <div id="collapseB6" class="accordion-collapse collapse" aria-labelledby="headingB6" data-bs-parent="#accordionExample">
+                    <div id="collapseB6" class="accordion-collapse collapse" aria-labelledby="headingB6" data-bs-parent="#accordionExample2">
                       <div class="accordion-body">
 
                       <div class="card-body">
@@ -1359,7 +1361,7 @@
                         <h5 class="card-title" style="text-align: left;">Metacrilatos DM</h5>
                       </button>
                     </h2>
-                    <div id="collapseB7" class="accordion-collapse collapse" aria-labelledby="headingB7" data-bs-parent="#accordionExample">
+                    <div id="collapseB7" class="accordion-collapse collapse" aria-labelledby="headingB7" data-bs-parent="#accordionExample2">
                       <div class="accordion-body">
 
                       <div class="card-body">
@@ -1462,7 +1464,7 @@
                         <h5 class="card-title" style="text-align: left;">Metacrilatos Contrachapado Abadul</h5>
                       </button>
                     </h2>
-                    <div id="collapseB8" class="accordion-collapse collapse" aria-labelledby="headingB8" data-bs-parent="#accordionExample">
+                    <div id="collapseB8" class="accordion-collapse collapse" aria-labelledby="headingB8" data-bs-parent="#accordionExample2">
                       <div class="accordion-body">
 
                       <div class="card-body">
@@ -1567,9 +1569,6 @@
           </div>
                                   
         </div>
-
-
-
 
     </div>  
     <p>&nbsp;</p>
