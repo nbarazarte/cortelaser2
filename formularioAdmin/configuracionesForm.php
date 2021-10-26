@@ -16,7 +16,7 @@
 
 <form method="post" action="admin-post.php">
 
-  <input type="hidden" name="action"  value="guardar_ga" />
+  <input type="hidden" name="action"  value="guardar_ga_CortesLaser" />
 
   <!-- mejorar la seguridad -->
   <?php wp_nonce_field('token_ga'); ?>

@@ -13,7 +13,7 @@ function calcularPrecio() {
     precioFinal         = (Number(longitud/1000) * Number(precioGrosor));
 
     var data = {
-        'action': 'jnjtest',
+        'action': 'jnjtest_CortesLaser',
         'material': material,
         'grosor': grosor,
         'longitud': longitud,

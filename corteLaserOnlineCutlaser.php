@@ -693,7 +693,7 @@ function cn_genera_pagina_CortesLaser() {
   require('formularioAdmin/configuracionesForm.php');
 }
 
-add_action( 'admin_post_guardar_ga', 'cn_guardar_ga_CortesLaser' );
+add_action( 'admin_post_guardar_ga_CortesLaser', 'cn_guardar_ga_CortesLaser' );
 
 function cn_guardar_ga_CortesLaser() {
     // Revisar el permiso de autorización
@@ -1035,8 +1035,8 @@ function cn_guardar_ga_CortesLaser() {
     exit;
 }
 
-add_action('wp_ajax_jnjtest', 'jnj_mi_funcion_CortesLaser');
-add_action('wp_ajax_nopriv_jnjtest', 'jnj_mi_funcion_CortesLaser');
+add_action('wp_ajax_jnjtest_CortesLaser', 'jnj_mi_funcion_CortesLaser');
+add_action('wp_ajax_nopriv_jnjtest_CortesLaser', 'jnj_mi_funcion_CortesLaser');
 
 // Esta función tiene que devolver los resultados al frontend
 // en el formato que queramos..
